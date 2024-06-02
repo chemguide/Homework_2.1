@@ -13,6 +13,9 @@ public class Main {
         Kogtewran padme = new Kogtewran("Падма Патил", 36, 49, 90, 28, 27, 56);
         Kogtewran markus = new Kogtewran("Маркус Белби", 27, 17, 47, 91, 83, 71);
         greg.printStudent();
+        harry.printStudent();
+        diggor.printStudent();
+        markus.printStudent();
         harry.compareInFaculty(hermy);
         harry.compareInFaculty(drako);
         grah.compareInFaculty(drako);

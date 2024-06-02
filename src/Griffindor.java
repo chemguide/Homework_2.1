@@ -20,8 +20,8 @@ public class Griffindor extends Hogwarts {
         System.out.println("Факультет: Гриффиндор");
         System.out.println("Сила магии: " + this.getMagicPower());
         System.out.println("Расстояние трансгрессии: " + this.getTransgressionDistance());
-        System.out.println("Хитрость: " + this.nobility);
-        System.out.println("Решительность: " + this.honor);
-        System.out.println("Амбициозность: " + this.bravery);
+        System.out.println("Благородство: " + this.nobility);
+        System.out.println("Честь: " + this.honor);
+        System.out.println("Храбрость: " + this.bravery);
     }
 }

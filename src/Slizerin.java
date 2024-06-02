@@ -19,13 +19,6 @@ public class Slizerin extends Hogwarts {
         return this.cunning + this.determination + this.ambition + this.resourcefulness + this.lustForPower;
     }
 
-    public void compareInFaculty(Slizerin one, Slizerin two) {
-        if (one.countScore() > two.countScore()) {
-            System.out.println(one.getName() + " лучший слизеринец, чем " + two.getName());
-        } else {
-            System.out.println(two.getName() + " лучший слизеринец, чем " + one.getName());
-        }
-    }
 
     public void printStudent() {
         System.out.println("Имя: " + this.getName());
